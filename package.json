@@ -1,0 +1,41 @@
+{
+  "name": "jev-mcp",
+  "version": "1.0.0",
+  "description": "Patched jev-mcp for thejevai.com sk_* keys: correct default base URL + unwrap {code,data.result} envelope.",
+  "type": "module",
+  "bin": {
+    "jev-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "jev",
+    "typesafe-ai",
+    "system-one",
+    "ai-agents",
+    "llm",
+    "classification",
+    "guardrails",
+    "claude-code"
+  ],
+  "author": "abaljeu (fork of codaaiteam/jev-mcp)",
+  "license": "MIT",
+  "homepage": "https://github.com/abaljeu/jev-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abaljeu/jev-mcp.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  }
+}
