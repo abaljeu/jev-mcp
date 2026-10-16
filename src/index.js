@@ -15,7 +15,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const MODEL = process.env.JEV_MODEL || "jev-latest";
+const MODEL = process.env.JEV_MODEL || "typesafe/jev-1.14";
 const API_KEY =
   process.env.TYPESAFE_API_KEY || process.env.JEV_API_KEY || process.env.JEV_KEY || "";
 
